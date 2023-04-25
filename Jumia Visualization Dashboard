@@ -1,0 +1,20 @@
+Superstore Dashboard Insight Story. 
+Data Extraction.
+The data for this visualization was obtained from kaggle website. 
+It was unzipped and then download as csv file.
+Data Cleaning
+After the zip file was downlaoded as csv file, the csv file was then read using pd.read command 
+using pandas with jupiter notebook tool. Data cleaning was done by checking for the null values, 
+renaming of column and converting of column into appropriate data type. 
+TRANSFORMATION AND LOADING.
+After data cleaning, my data was exported using to_csv to be used for visualization.
+Going in to the visualization pain, 
+count of total vendors was obtained, count vendors with online presence and social media was also 
+shown on our visualization pane. 
+INSIGHTS.
+From our dashboard, it was shown that 42 vendors have website while 83 vendors have online presence.
+The dashboard also shows vendors and their mobile contact.
+The reasons why we have low vendors with website   is as result of the fact that
+some of those vendors are operating on a small scale and the cost of owing a website is not very friendly. It is easier for them to have social media 
+account like facebook with little or no cost as against owing a website. 
+This dashboard also shows vendors with the highest ratings.
